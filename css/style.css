@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    scroll-behavior: smoothS;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+
+.nav-logo img{
+    width:125px;
+}
+
+a{
+    color:deepskyblue;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 5px 0px;
+}
+a:hover{
+    color:blue;
+    text-decoration: underline;
+    background-color: gray;
+
+}
+
+[class*="col-"]
+{
+    float:left;
+    padding:10px;
+}
+[class*="col-"]
+{
+    width:100%;
+}
+.navbar{
+    background-color:cornsilk;
+    padding: 1% 6%;
+    text-align: center;
+}
+.nav-menu{
+   display: flex;
+   flex-direction: column;
+
+}
+
+
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* body stars here */
+#body{
+    background-image: url("../picture/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+.body-content{
+    padding:100px 20px;
+    text-align: center;
+}
+.body-content h1{
+    width:100%;
+    margin: 15px auto;
+    font-size: 35px;
+    color:white;
+}
+.body-content p{
+    width:100%;
+    margin: 15px auto;
+    font-size: 20px;
+    color:white;
+
+}
+.body-content a{
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    margin: 25px auto;
+    width:150px;
+    height: 40px;
+    color:hotpink;
+    font-size: 15px;
+}
+.body-content a:hover{
+    text-decoration: underline;
+    background-color: blanchedalmond;
+    color:burlywood;
+}
+.about-us-content p{
+    width: 100%;
+    margin: 15px auto;
+    padding: 20px 0px;
+    font-size: 40px;
+    color:darkgoldenrod;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.col-lg p{
+    text-align: center;
+    width: 100%;
+    margin: 15px auto;
+    font-size: 40px;
+    color:darkgoldenrod;
+    background-color:#F9F9F9;
+    
+    
+}
+footer{
+    padding: 1%;
+    color: black;
+    background-color: red;
+    text-align: center;
+}
+.col-lg-6 .social-menues{
+   background-color:burlywood;
+}
+.social-menues a{
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    transition: .5s;
+}
